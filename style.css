@@ -10,7 +10,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
 
 html{
-  font-size:15px;
+    font-size:15px;
 }
 *{
     box-sizing: border-box;
@@ -18,86 +18,87 @@ html{
     padding:0;
 }
 main{
-  height:100vh;
-  display:flex;
-  justify-content: center;
-  align-items: center;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 body{
-  background-color: var(--very_dark_blue);
-  color:white;
-  height:100%;
+    background-color: var(--very_dark_blue);
+    color:white;
+    height:100%;
 }
 .wrapper{
-  display:flex;
-  margin:0 20px;
-  max-width:1080px;
-  background-color: var(--dark_desaturated_blue);
-  overflow:hidden;
-  border-radius:15px;
+    display:flex;
+    margin:0 20px;
+    max-width:1080px;
+    background-color: var(--dark_desaturated_blue);
+    overflow:hidden;
+    border-radius:15px;
 }
-.pack .conect p{
-  line-height: 1.7rem;
-  word-spacing: 0.1rem;
-  color:hsla(0, 0%, 100%, 0.75);
-  font-family: 'Lexend Deca', sans-serif;
-  font-weight:100;
+.pack .about p{
+    line-height: 1.7rem;
+    word-spacing: 0.1rem;
+    color:hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight:100;
 }
 h1{
-  color:var(--white);
-  font-family: 'Inter', sans-serif;
-  letter-spacing: 0.1rem;
-  font-size:2.2rem;
+    color:var(--white);
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0.1rem;
+    font-size:2.2rem;
+    line-height: 2.7rem;
 }
 .stats_box{
-  display:flex;
-  justify-content: space-between;
-  color:var(--white);
-  font-family: 'Inter', sans-serif;
-  width:95%;
+    display:flex;
+    justify-content: space-between;
+    color:var(--white);
+    font-family: 'Inter', sans-serif;
+    width:95%;
 }
 .content{
-  width:50%;
-  display:flex;
-  padding:15px 0;
+    width:50%;
+    display:flex;
+    padding:15px 0;
 }
 .stats_box p{
-  color:hsla(0, 0%, 100%, 0.75);
-  font-family: 'Lexend Deca', sans-serif;
-  margin-top:5px;
-  text-transform: uppercase;
-  font-size:0.7rem;
-  font-weight:100;
+    color:hsla(0, 0%, 100%, 0.75);
+    font-family: 'Inter', sans-serif;
+    margin-top:7px;
+    text-transform: uppercase;
+    font-size:0.7rem;
+    font-weight:lighter;
 }
 h1{
-  padding-bottom:25px;
+    padding-bottom:25px;
 }
 h1 strong{
-  color:var(--soft_violet);
+    color:var(--soft_violet);
 }
 .pack{
- flex:0 0 70%;
- min-width:200px;
- margin:0 auto;
- display:flex;
- flex-direction:column;
- justify-content: space-around;
+    flex:0 0 70%;
+    min-width:200px;
+    margin:0 auto;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
 }
 img{
-  height:100%;
-  width:100%;
+    height:100%;
+    width:100%;
 }
 .picture{
-  position:relative;
+    position:relative;
 }
 .overlay{
-  background-color: var(--soft_violet);
-  position:absolute;
-  mix-blend-mode: multiply;
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
+    background-color: var(--soft_violet);
+    position:absolute;
+    mix-blend-mode: multiply;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
 }
 @media screen and (max-width:860px){
   main{
@@ -114,40 +115,44 @@ img{
     text-align: center;
   }
  .pack{
-  height:100%;
-  width:100%;
-  display:flex;
+    height:100%;
+    width:100%;
+    display:flex;
  }
- .pack .conect p{
-  width:100%;
+ .pack .about p{
+    width:100%;
  }
  .stats_box:last-child{
-  margin-right:0;
+    margin-right:0;
 }
 .stats_box{
-  display:flex;
-  flex-direction: column;
-  font-size:1.4rem;
+    display:flex;
+    flex-direction: column;
+    font-size:1.4rem;
+}
+.stats_box p{
+    font-size: 0.8rem;
 }
 h1{
-  margin-top:25px;
-  padding-bottom:0;
+    margin-top:25px;
+    padding-bottom:0;
+    line-height:2.7rem;
 }
-.pack .conect p{
-  margin:1.5rem 0;
+.pack .about p{
+    margin:1.5rem 0;
 }
 .stats_box div{
-  margin:10px 0;
+    margin:10px 0;
 }
 }
 
 @media screen and (max-width:600px){
 h1{
-  font-size:1.6rem;
-  line-height:1.9rem;
+    font-size:1.6rem;
+    line-height:1.9rem;
 }
 .stats_box{
-  font-size: 1rem;
+    font-size: 1rem;
 }
 }
 
